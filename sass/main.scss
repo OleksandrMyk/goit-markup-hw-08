@@ -1,0 +1,26 @@
+@import './base/common';
+@import './base/reset';
+@import './base/all-file';
+@import './base/current';
+@import './base/color';
+
+@import './components/conteiner';
+@import './components/modal';
+@import './components/logo';
+@import './components/mail-tel';
+@import './components/btn';
+@import './components/title';
+
+@import './layout/header';
+@import './layout/navigation';
+@import './layout/hero';
+@import './layout/about';
+@import './layout/work';
+@import './layout/personal';
+@import './layout/content';
+@import './layout/footer';
+@import './layout/menu';
+
+@import './utils/vars';
+@import './utils/visually-hidden';
+@import './utils/placeholder';

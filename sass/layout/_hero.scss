@@ -1,0 +1,19 @@
+.hero {
+    max-width: 1600px;
+    background: #2f303a;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/title-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    &-container {
+        display: flex;
+    }
+
+    &-title {
+        padding: 200px 0;
+    }
+}

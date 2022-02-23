@@ -1,0 +1,29 @@
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    background: #ffffff;
+    border: 1px solid #ececec;
+
+    &-item {
+        display: flex;
+    }
+
+    &-item + &-item {
+        margin-left: 50px;
+    }
+
+    &-list {
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+    }
+
+    &-social-icon {
+        fill: currentColor;
+        margin-right: 10px;
+    }
+
+    &-conteiner {
+        display: flex;
+    }
+}

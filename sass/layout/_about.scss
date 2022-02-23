@@ -1,0 +1,51 @@
+.about-icons {
+}
+
+.about {
+    padding-bottom: 0;
+    &-social-icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        background: rgba(255, 255, 255, 0.1);
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    &-social-link {
+        @extend %disp-a-j;
+        height: 92px;
+        background: #f5f4fa;
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -30px;
+        margin-left: -30px;
+    }
+
+    &-item {
+        width: calc(100% / 4 - 30px);
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    &-title {
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin-bottom: 10px;
+    }
+
+    &-after-title {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+}
